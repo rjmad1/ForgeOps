@@ -1,0 +1,82 @@
+AI Control Plane - Third Party Licenses
+=======================================
+
+This distribution packages and uses several third-party libraries. Their respective licenses are listed below.
+
+1. FastAPI
+----------
+License: MIT License
+Copyright (c) 2018 Sebastián Ramírez
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+
+2. Uvicorn
+----------
+License: BSD 3-Clause License
+Copyright (c) 2017-present, Encode OSS Ltd. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of the copyright holder nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+
+3. PyWin32
+----------
+License: Python Software Foundation License (PSF) or similar.
+Copyright (c) Mark Hammond and contributors.
+
+
+4. Psutil
+---------
+License: BSD 3-Clause License
+Copyright (c) 2009, Jay Loden, Dave Daeschler, Giampaolo Rodola
+
+
+5. PyYAML
+---------
+License: MIT License
+Copyright (c) 2017-2021 Inada Naoki
+Copyright (c) 2006 Kirill Simonov
+
+
+6. Pydantic
+-----------
+License: MIT License
+Copyright (c) 2019 Samuel Colvin
+
+
+7. Httpx
+--------
+License: BSD 3-Clause License
+Copyright (c) 2019, Encode OSS Ltd. All rights reserved.
+
+
+8. Lucide React
+--------------
+License: ISC License
+Copyright (c) 2022-present, Lucide Contributors
+
+
+9. React & React-DOM
+--------------------
+License: MIT License
+Copyright (c) Meta Platforms, Inc. and affiliates.

@@ -1,0 +1,7 @@
+litellm_settings:
+  drop_params: true
+model_list:
+- litellm_params:
+    api_base: http://localhost:11434
+    model: ollama/llama3
+  model_name: ollama-llama3
