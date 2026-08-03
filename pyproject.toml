@@ -15,7 +15,7 @@ classifiers = [
 ]
 dependencies = [
     "fastapi==0.139.0",
-    "uvicorn[standard]==0.50.0",
+    "uvicorn[standard]==0.52.0",
     "pywin32==312; sys_platform == 'win32'",
     "psutil==7.2.2",
     "pyyaml==6.0.3",
