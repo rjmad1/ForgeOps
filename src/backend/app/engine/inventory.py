@@ -14,8 +14,9 @@ logger = logging.getLogger("engine.inventory")
 
 def run_cmd(args: List[str]) -> Optional[str]:
     try:
-        # Use shell=True on Windows to support PATH search for batch/cmd commands without absolute path
-        res = subprocess.run(args, capture_output=True, text=True, timeout=1.5, shell=True)
+        executable = shutil.which(args[0]) if args else None
+        cmd = [executable, *args[1:]] if executable else args
+        res = subprocess.run(cmd, capture_output=True, text=True, timeout=1.5, shell=False)
         if res.returncode == 0:
             return res.stdout.strip()
     except Exception:
