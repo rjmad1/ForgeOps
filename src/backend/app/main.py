@@ -435,10 +435,9 @@ def get_system_metrics() -> Dict[str, Any]:
     nvidia_smi = shutil.which("nvidia-smi")
     if nvidia_smi:
         try:
-            # We run it with shell=True on Windows to query metrics in one-liner
             res = subprocess.run(
                 [nvidia_smi, "--query-gpu=gpu_name,utilization.gpu,memory.used,memory.total", "--format=csv,noheader,nounits"],
-                capture_output=True, text=True, timeout=1.0, shell=True
+                capture_output=True, text=True, timeout=1.0, shell=False
             )
             if res.returncode == 0 and res.stdout:
                 parts = res.stdout.strip().split(",")
